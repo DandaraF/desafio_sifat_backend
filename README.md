@@ -2,8 +2,8 @@
   Criar um sistema CRUD para um Blog, usando Django Framework no backend.
 
  ## Tecnologias
- Django
- React Framework
+ * Django
+ * React Framework
 
 
 ## Como executar
