@@ -20,11 +20,11 @@ Linux: $virtualenv venv
 * Ativar maquina virtual:
  Entre dentro da pasta do projeto(desafio_sifat_backend) digite o seguinte comando no terminal: 
 
-** Windows:
-$cd venv\Scripts\activate
+  * Windows:
+  $cd venv\Scripts\activate
 
-** Linux: 
-$source venv/bin/activate
+  * Linux: 
+  $source venv/bin/activate
 
 * Instalar o dependências:
 $ pip install requeriments.txt
