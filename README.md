@@ -29,5 +29,8 @@ $source venv/bin/activate
 * Instalar o dependências:
 $ pip install requeriments.txt
 
+* Startar o projeto:
+$ python manage.py runserver
+
 
 
