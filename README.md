@@ -1,6 +1,6 @@
 # Desafio Sifat
   Criar um sistema CRUD para um Blog, usando Django Framework no backend.
-  api_url =http://dandarafonseca.pythonanywhere.com/postagens
+  * api_url =http://dandarafonseca.pythonanywhere.com/postagens
 
  ## Tecnologias
  * Django
