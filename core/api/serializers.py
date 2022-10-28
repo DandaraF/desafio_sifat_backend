@@ -3,6 +3,6 @@ from core.models import Postagem
 
 
 class PostagemSerializer(ModelSerializer):
-  class Meta:
-    model= Postagem
-    fields = "__all__"
+    class Meta:
+        model = Postagem
+        fields = "__all__"
