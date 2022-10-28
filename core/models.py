@@ -11,7 +11,7 @@ class Postagem(models.Model):
     imagem = models.CharField(max_length=150)
     categoria = models.CharField(max_length=150)
     data_criacao = models.DateField(auto_now_add=True)
-    curtidas = models.BooleanField()
+    curtida = models.BooleanField()
 
     class Meta:
         db_table = "postagens"
