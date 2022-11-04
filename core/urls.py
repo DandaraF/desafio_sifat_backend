@@ -1,11 +1,11 @@
 from django.urls import path, include
-from rest_framework.routers import DefaultRouter
+from rest_framework.routers import SimpleRouter
 
-from .api.viewsets import PostagemViewSet
+from core.api.viewsets import PostagemViewSet
 
-router = DefaultRouter()
+router = SimpleRouter(trailing_slash=False)
 
-router.register("postagens", PostagemViewSet)
+router.register("api", PostagemViewSet)
 
 urlpatterns = [
     path('', include(router.urls))
