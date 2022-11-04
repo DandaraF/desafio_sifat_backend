@@ -7,11 +7,12 @@ class Postagem(models.Model):
     postagem_id = models.UUIDField(primary_key=True, default=uuid4,
                                    editable=False)
     titulo = models.CharField(max_length=255)
-    texto = models.CharField(max_length=500)
+    texto = models.CharField(max_length=3000)
+    autor = models.CharField(max_length=255)
     imagem = models.CharField(max_length=150)
     categoria = models.CharField(max_length=150)
     data_criacao = models.DateField(auto_now_add=True)
-    curtida = models.BooleanField()
+    curtidas = models.IntegerField(default=0)
 
     class Meta:
         db_table = "postagens"

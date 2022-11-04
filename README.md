@@ -5,25 +5,39 @@ Criar um sistema CRUD para um Blog, usando Django Framework no backend.
 ## Tecnologias
 
 * Django
-* React Framework
+* Rest Framework
+* Django Filters
 
 ## Como executar
 
 * Clone este repositório
-  $ git clone https://github.com/DandaraF/desafio_sifat_backend.git
-* Abra o terminal e entre dentro da pasta do projeto (desafio_sifat_backend)
-* Instale a maquina virtual. Digite o comando do terminal:
+   ```console
+    git clone https://github.com/DandaraF/desafio_sifat_backend.git
+    ```
 
-  * Windows: $python -m venv venv
-  * Linux: $virtualenv venv
-* Ativar maquina virtual:
-  Entre dentro da pasta do projeto(desafio_sifat_backend) digite o seguinte comando no terminal:
+* Entre dentro da pasta do projeto (desafio_sifat_backend)
 
-  * Windows:
-    $cd venv\Scripts\activate
-  * Linux:
-    $source venv/bin/activate
+
+* Renomeei o arquivo "env.example":
+    ```console
+    mv env.example .env
+    ```
+  
+* Instale a máquina virtual:
+    ```console
+    virtualenv venv
+    ```
+* Ative a máquina virtual:
+    ```console
+    source venv/bin/activate
+    ```
 * Instalar o dependências:
-  $ pip install -r requeriments.txt
-* Startar o projeto:
-  $ python manage.py runserver
+    ```console
+    pip install -r requeriments.txt
+    ```
+* Starte o projeto:
+    ```console
+    python manage.py runserver
+    ```
+* Clique no link abaixo ou digite o link no navegador:
+   * http://127.0.0.1:8000/api
