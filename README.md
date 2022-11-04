@@ -41,3 +41,6 @@ Criar um sistema CRUD para um Blog, usando Django Framework no backend.
     ```
 * Clique no link abaixo ou digite o link no navegador:
    * http://127.0.0.1:8000/api
+   
+## Informações da API
+* A API foi hospedada em dandarafonseca.pythonanywhere.com, é possivel fazer o CRUD e filtrar as informações por texto, titulo e categoria.
