@@ -33,7 +33,7 @@ Criar um sistema CRUD para um Blog, usando Django Framework no backend.
     ```
 * Instalar o dependências:
     ```console
-    pip install -r requeriments.txt
+    pip install -r requirements.txt
     ```
 * Starte o projeto:
     ```console
