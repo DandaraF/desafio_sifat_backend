@@ -23,7 +23,7 @@ Criar um sistema CRUD para um Blog, usando Django Framework no backend.
     mv env.example .env
     ```
   
-* Instale a máquina virtual:
+* Instale a máquina virtual. Python: 3.8:
     ```console
     virtualenv venv
     ```
